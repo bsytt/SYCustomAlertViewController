@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SYAlertController.xcodeproj">
+      location = "group:/Users/gaof/Desktop/SYAlertViewDemo/Lib/SYAlertController/Example/SYCustomAlertViewController.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
