@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D8BF2E06BEA09D02A90712A /* SYAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SYAlertController.podspec; path = ../SYAlertController.podspec; sourceTree = "<group>"; };
+		0D8BF2E06BEA09D02A90712A /* SYAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SYAlertController.podspec; path = ../SYAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1E6E2914C626B31859BAFB92 /* Pods_SYAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SYAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		721866E5FC5171C2F0C87F61 /* Pods-SYAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-SYAlertController_Example/Pods-SYAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		75D7E43A8F036C8DF6439FA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75D7E43A8F036C8DF6439FA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7E98D2DC06F6BC1A52EEC49D /* Pods-SYAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SYAlertController_Tests/Pods-SYAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F4454F7E5F30B9A31411F9F /* Pods-SYAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SYAlertController_Example/Pods-SYAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B32CF56705AFD4339677FC71 /* Pods-SYAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYAlertController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SYAlertController_Tests/Pods-SYAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D27A40ECA09FF0A4B7669837 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D27A40ECA09FF0A4B7669837 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D296058068168E154869246C /* Pods_SYAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				7E98D2DC06F6BC1A52EEC49D /* Pods-SYAlertController_Tests.debug.xcconfig */,
 				B32CF56705AFD4339677FC71 /* Pods-SYAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 39RBG4SNB6;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 39RBG4SNB6;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 9F4454F7E5F30B9A31411F9F /* Pods-SYAlertController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39RBG4SNB6;
 				INFOPLIST_FILE = SYAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +515,7 @@
 			baseConfigurationReference = 721866E5FC5171C2F0C87F61 /* Pods-SYAlertController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 39RBG4SNB6;
 				INFOPLIST_FILE = SYAlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -526,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E98D2DC06F6BC1A52EEC49D /* Pods-SYAlertController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 39RBG4SNB6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B32CF56705AFD4339677FC71 /* Pods-SYAlertController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 39RBG4SNB6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

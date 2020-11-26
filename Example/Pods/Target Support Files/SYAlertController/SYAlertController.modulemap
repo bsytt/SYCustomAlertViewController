@@ -1,0 +1,6 @@
+framework module SYAlertController {
+  umbrella header "SYAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
