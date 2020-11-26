@@ -17,7 +17,7 @@
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
                BuildableName = "SYCustomAlertViewController_Example.app"
                BlueprintName = "SYCustomAlertViewController_Example"
-               ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+               ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "SYAlertController_Tests.xctest"
                BlueprintName = "SYAlertController_Tests"
-               ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+               ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SYCustomAlertViewController_Example.app"
             BlueprintName = "SYCustomAlertViewController_Example"
-            ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+            ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -58,7 +58,7 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "SYAlertController_Tests.xctest"
                BlueprintName = "SYAlertController_Tests"
-               ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+               ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -80,7 +80,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SYCustomAlertViewController_Example.app"
             BlueprintName = "SYCustomAlertViewController_Example"
-            ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+            ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "SYCustomAlertViewController_Example.app"
             BlueprintName = "SYCustomAlertViewController_Example"
-            ReferencedContainer = "container:SYCustomAlertViewController.xcodeproj">
+            ReferencedContainer = "container:SYCustomAlertViewController_.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

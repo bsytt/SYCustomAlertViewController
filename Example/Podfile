@@ -1,11 +1,7 @@
 use_frameworks!
 
-target 'SYAlertController_Example' do
-  pod 'SYAlertController', :path => '../'
+target 'SYCustomAlertViewController_Example' do
+	pod 'SYCustomAlertViewController', :path => '../'
 
-  target 'SYAlertController_Tests' do
-    inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end

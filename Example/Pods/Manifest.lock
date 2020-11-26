@@ -1,31 +1,23 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - SnapKit (5.0.1)
-  - SYAlertController (0.1.2):
+  - SYCustomAlertViewController (0.1.7):
     - SnapKit
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
-  - SYAlertController (from `../`)
+  - SYCustomAlertViewController (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
     - SnapKit
 
 EXTERNAL SOURCES:
-  SYAlertController:
+  SYCustomAlertViewController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SYAlertController: 5c1460f769fccefd0001f64cf30661fff0c90f82
+  SYCustomAlertViewController: 5f8c187a3d135389c25a280ab9cdcd33b0c54be3
 
-PODFILE CHECKSUM: 7e1e1b78b2191df3c6374c96be6fbf6ed78a230e
+PODFILE CHECKSUM: d5425c8b359630871e0f222766cff0c840713883
 
 COCOAPODS: 1.10.0
