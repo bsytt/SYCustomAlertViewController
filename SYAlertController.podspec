@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SYAlertController'
-  s.version          = '0.1.2'
+  s.name             = 'SYCustomAlertViewController'
+  s.version          = '0.1.6'
   s.summary          = '自定义AlertView，支持系统样式显示；文字，图片自定义显示；以及显示自定义视图.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  #s.swift_version = '5.0'
+  s.swift_version = '5.0'
   s.source_files = 'SYAlertController/Classes/**/*.{swift}','SYAlertController/Classes/SYAlertViewController/*.{swift}'
   
   # s.resource_bundles = {
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'SnapKit'
 end
