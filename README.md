@@ -1,4 +1,4 @@
-# SYAlertController
+# SYCustomAlertViewController
 
 [![CI Status](https://img.shields.io/travis/bsytt/SYCustomAlertViewController.svg?style=flat)](https://travis-ci.org/bsytt/SYCustomAlertViewController)
 [![Version](https://img.shields.io/cocoapods/v/SYCustomAlertViewController.svg?style=flat)](https://cocoapods.org/pods/SYCustomAlertViewController)
