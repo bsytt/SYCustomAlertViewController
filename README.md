@@ -3,7 +3,7 @@
 [![CI Status](https://img.shields.io/travis/bsytt/SYCustomAlertViewController.svg?style=flat)](https://travis-ci.org/bsytt/SYCustomAlertViewController)
 [![Version](https://img.shields.io/cocoapods/v/SYCustomAlertViewController.svg?style=flat)](https://cocoapods.org/pods/SYCustomAlertViewController)
 [![License](https://img.shields.io/cocoapods/l/SYCustomAlertViewController.svg?style=flat)](https://cocoapods.org/pods/SYCustomAlertViewController)
-[![Platform](https://img.shields.io/cocoapods/p/SYCustomAlertViewController.svg?style=flat)](https://cocoapods.org/pods/SYAlertViewController)
+[![Platform](https://img.shields.io/cocoapods/p/SYCustomAlertViewController.svg?style=flat)](https://cocoapods.org/pods/SYCustomAlertViewController)
 
 ## Example
 
