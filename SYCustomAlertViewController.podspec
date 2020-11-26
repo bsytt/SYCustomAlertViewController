@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
-  s.source_files = 'SYAlertController/Classes/**/*.{swift}','SYAlertController/Classes/SYAlertViewController/*.{swift}'
+  s.source_files = 'SYCustomAlertViewController/Classes/**/*.{swift}','SYCustomAlertViewController/Classes/SYAlertViewController/*.{swift}'
   
   # s.resource_bundles = {
   #   'SYAlertController' => ['SYAlertController/Assets/*.png']
