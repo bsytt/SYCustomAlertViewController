@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/bsytt/SYAlertViewController'
+  s.homepage         = 'https://github.com/bsytt/SYCustomAlertViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bsytt' => '15893398117@163.com' }
-  s.source           = { :git => 'https://github.com/bsytt/SYAlertViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bsytt/SYCustomAlertViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
-  s.source_files = 'SYCustomAlertViewController/Classes/**/*.{swift}','SYCustomAlertViewController/Classes/SYAlertViewController/*.{swift}'
+  s.source_files = 'SYCustomAlertViewController/Classes/**/*.{swift}','SYCustomAlertViewController/Classes/SYCustomAlertViewController/*.{swift}'
   
   # s.resource_bundles = {
   #   'SYAlertController' => ['SYAlertController/Assets/*.png']
