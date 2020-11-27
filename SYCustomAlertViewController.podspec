@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SYCustomAlertViewController'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '自定义AlertView，支持系统样式显示；文字，图片自定义显示；以及显示自定义视图.'
 
 # This description is used to generate tags and improve search results.
